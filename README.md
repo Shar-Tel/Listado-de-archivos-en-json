@@ -25,6 +25,20 @@ python listado.py
 El programa guarda el resultado en `listado.json`, en el directorio desde el
 que se ejecuta, y muestra la ruta del archivo generado.
 
+## Visor gráfico
+
+Para consultar un listado en una interfaz gráfica, ejecuta:
+
+```powershell
+python visor.py
+```
+
+El visor carga automáticamente `listado.json` si está junto a `visor.py`.
+También puedes usar **Abrir listado…** para elegir otro archivo JSON. Permite
+explorar las carpetas, buscar por nombre o carpeta y ordenar por nombre,
+carpeta o tamaño. Utiliza Tkinter, incluido en las distribuciones habituales
+de Python, por lo que no requiere instalar paquetes adicionales.
+
 ## Formato del resultado
 
 El JSON agrupa los archivos por carpeta relativa al directorio analizado. Los
